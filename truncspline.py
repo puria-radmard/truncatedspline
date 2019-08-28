@@ -2,6 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import make_pipeline
 import pandas as pd
+import seaborn as sns
 
 wagedf = pd.read_csv(index_col = 0, filepath_or_buffer = "https://raw.githubusercontent.com/puria-radmard/ISLR-python/master/Notebooks/Data/Wage.csv")
 
